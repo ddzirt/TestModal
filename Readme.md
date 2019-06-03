@@ -28,6 +28,6 @@ react-native run-android
 ```
 
 Notice text positioning, proceed by pressing on `Press me to open the modal` and notice text positioning <br/>
-Also you will notice icon color change when translucent is set to `false` <br/>
+Also you will notice icon color change <br/>
 Edit App.tsx on line 41 or 42, switching translucent from `false` to `true` <br/>
 Refresh the app and try again. This is where you will see the text positioning issue.

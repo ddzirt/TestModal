@@ -2,10 +2,10 @@ Showcase of React Native modal behaviour inconsistency between iOS and Android.
 
 Project is using Yarn but NPM works as well.
 
-First video showing how it works with StatusBar.translucent = true
+First video is showing how it works with StatusBar translucent={true} <br/>
 https://vimeo.com/339975862
 
-Second video showing how it works with StatusBar.translucent = false
+Second video is showing how it works with StatusBar translucent={false} <br/>
 https://vimeo.com/339976598
 
 To reproduce: 

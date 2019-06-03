@@ -27,6 +27,6 @@ target 'TestModal' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  pod 'react-native-statusbar', :path => '../node_modules/@react-native-community/status-bar'
+  # pod 'react-native-statusbar', :path => '../node_modules/@react-native-community/status-bar'
 
 end

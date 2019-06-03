@@ -1,8 +1,17 @@
 Showcase of React Native modal behaviour inconsistency between iOS and Android.
 
+Project is using Yarn but NPM works as well.
+
+First video showing how it works with StatusBar.translucent = true
+https://vimeo.com/339975862
+
+Second video showing how it works with StatusBar.translucent = false
+https://vimeo.com/339976598
+
 To reproduce: 
 ``` javascript
 yarn install
+yarn start
 react-native run-ios
 ```
 Open modal see the text positioning

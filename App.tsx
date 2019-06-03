@@ -38,10 +38,10 @@ const App: React.FunctionComponent = () => {
   return (
     <View style={s.container}>
       <StatusBar
-        translucent
-        // translucent={false}
-        barStyle="light-content"
-        backgroundColor="rgba(0, 0, 0, 0.2)"
+        // translucent
+        translucent={false}
+        barStyle="dark-content"
+        backgroundColor="rgba(0, 0, 0, 0.5)"
       />
       <Text>I’m underneath the status bar</Text>
       <TouchableOpacity onPress={openModal}>
